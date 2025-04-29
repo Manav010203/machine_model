@@ -1,0 +1,10 @@
+prefix=/Users/manavdeepsingh/Desktop/sample_project_ml/heart-disease-project/env
+exec_prefix=/Users/manavdeepsingh/Desktop/sample_project_ml/heart-disease-project/env
+libdir=/Users/manavdeepsingh/Desktop/sample_project_ml/heart-disease-project/env/lib
+includedir=/Users/manavdeepsingh/Desktop/sample_project_ml/heart-disease-project/env/include
+
+Name: Protocol Buffers
+Description: Google's Data Interchange Format
+Version: 29.3.0
+Libs: -L${libdir} -lupb 
+Cflags: -I${includedir}
